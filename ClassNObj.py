@@ -4,8 +4,8 @@ class Person:
     self.age = age
 
 name = input("Enter name of man: ")
-age = input("Enter age of man")
+age = input("Enter age of man: ")
 
 man = Person(name, age)
-print(man.name)
-print(man.age)
+print("Name of man: " + man.name)
+print("Age of man: " + man.age)
