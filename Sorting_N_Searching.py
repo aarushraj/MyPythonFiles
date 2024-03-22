@@ -31,14 +31,3 @@ if(flag==1):
     print("ITEM HAS BEEN FOUND AT INDEX: " + str(M))
 else:
     print("ITEM NOT FOUND!")
-
-        
-
-    
-
-
-
-
-
-
-
