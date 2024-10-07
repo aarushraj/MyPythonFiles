@@ -44,7 +44,7 @@ import pandas as pd
 # Convert the dictionary to a pandas DataFrame for a nice display
 comparison_df_all = pd.DataFrame(comparison_table_all)
 
-from IPython.display import display
-display(comparison_df_all)
+comparison_df_all.to_csv('comparison_data.csv', index=False)
+
 
 
