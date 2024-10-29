@@ -22,4 +22,3 @@ equation = " + ".join(equation_terms)
 
 print("Final Polynomial Equation:")
 print(f"y = {equation}")
-
