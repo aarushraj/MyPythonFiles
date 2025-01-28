@@ -29,5 +29,5 @@ def organize_images_by_label(source_folder, max_images=5000):
     print(f"Processed {count} images and organized them into subfolders.")
 
 # Example usage
-source_folder = "D:\AARUSH\finger_gesture_datasets\train"  # Replace with the path to your folder
+source_folder = r"D:\AARUSH\finger_gesture_datasets\train"  # Replace with the path to your folder
 organize_images_by_label(source_folder, max_images=5000)
