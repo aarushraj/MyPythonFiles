@@ -17,12 +17,12 @@ def organize_images_by_label(source_folder, max_images=5000):
 
         # Skip directories
         if os.path.isfile(file_path):
-            # Debug: Print the current filename
-            print(f"Processing: {filename}")
+            # Remove file extension to get the core filename
+            core_filename, _ = os.path.splitext(filename)
 
             # Ensure filename length is valid
-            if len(filename) >= 2:
-                label = filename[-2]
+            if len(core_filename) >= 2:
+                label = core_filename[-2]  # Second last character of the core filename
                 print(f"Second last character of {filename}: {label}")
 
                 # Check if the label is a valid digit (0-5)
